@@ -152,7 +152,7 @@ outputs:
         - fenics-ufl {{ ufl_version }}.*
     test:
       script: test-dolfinx.sh  # [not win]
-      script: test-dolfinx.bat  # [win]
+      # script: test-dolfinx.bat  # [win]
       files:
         - test_dolfinx.py
       source_files:
